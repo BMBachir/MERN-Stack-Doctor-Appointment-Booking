@@ -21,7 +21,7 @@ const Home = () => {
                   voluptate distinctio magni illo ipsa consequatur repellendus
                   rem minima doloremque nesciunt dolorum adipisci excepturi!
                 </p>
-                <button className="btn hover:bg-blue-700">
+                <button className="btn hover:bg-blue-400">
                   Request an Appoinment
                 </button>
               </div>

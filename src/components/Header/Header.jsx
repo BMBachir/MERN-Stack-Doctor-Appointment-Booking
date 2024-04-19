@@ -62,7 +62,7 @@ const Header = () => {
         <div className="flex itmes-center justify-between">
           {/*======= logo ========= */}
           <div>
-            <img src={logo} alt="" className="w-40 pt-3" />
+            <img src={logo} alt="" className="w-40 pt-9" />
           </div>
 
           {/*======= menu ========= */}
@@ -96,7 +96,7 @@ const Header = () => {
               </Link>
             </div>
             <Link to={"/login"}>
-              <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center rounded-[50px]">
+              <button className="bg-primaryColor hover:bg-blue-400 py-2 px-6 text-white font-[600] h-[44px] flex items-center rounded-[50px]">
                 Login
               </button>
             </Link>
