@@ -7,6 +7,8 @@ import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
+import About from "../components/About/About";
+
 const Home = () => {
   return (
     <>
@@ -76,7 +78,7 @@ const Home = () => {
       </section>
       {/*======= Hero section end ========= */}
 
-      <section>
+      <section className="mb-0">
         <div className="container">
           <div className="lg:w-[470px] mx-auto ">
             <h2 className="heading text-center">
@@ -155,7 +157,8 @@ const Home = () => {
         </div>
       </section>
       {/*======= About Section ========= */}
-      <section></section>
+      <About />
+      {/*======= Services Section ========= */}
     </>
   );
 };
