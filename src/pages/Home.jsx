@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList";
+import DoctorList from "../components/Doctors/DoctorList";
 
 const Home = () => {
   return (
@@ -174,7 +175,7 @@ const Home = () => {
       </section>
       {/*======= Services Section End ========= */}
       {/*======= Feature Section ========= */}
-      <section>
+      <section className="mb-[-300px]">
         <div className="container">
           <div className="flex items-center justify-between flex-col lg:flex-row">
             {/*======= Feature Content ========= */}
@@ -206,6 +207,20 @@ const Home = () => {
         </div>
       </section>
       {/*======= Feature Section End ========= */}
+      {/*======= Doctor's Section End ========= */}
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto ">
+            <h2 className="heading text-center">Our great doctors </h2>
+            <div className="para__text text-center mt-4">
+              World-class care for everyone. Our healthy System offers
+              unmatched, expert health care.
+            </div>
+          </div>
+        </div>
+        <DoctorList />
+      </section>
+      {/*======= Doctor's Section  ========= */}
     </>
   );
 };
