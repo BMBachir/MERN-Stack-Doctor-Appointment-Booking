@@ -5,6 +5,7 @@ import heroImg03 from "../assets/images/hero-img03.png";
 import icon01 from "../assets/images/icon01.png";
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
+import featureImg from "../assets/images/feature-img.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import About from "../components/About/About";
@@ -14,7 +15,7 @@ const Home = () => {
   return (
     <>
       {/*======= Hero section ========= */}
-      <section className="hero__section pt-[60px] 2xl:h-[800px] ">
+      <section className="hero__section pt-[60px] 2xl:h-[800px] mb-[-180px] ">
         <div className="container  ">
           <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between  ">
             {/*======= Hero content ========= */}
@@ -78,8 +79,7 @@ const Home = () => {
         </div>
       </section>
       {/*======= Hero section end ========= */}
-
-      <section className="mb-0">
+      <section className="mb-[-300px]">
         <div className="container">
           <div className="lg:w-[470px] mx-auto ">
             <h2 className="heading text-center">
@@ -160,7 +160,7 @@ const Home = () => {
       {/*======= About Section ========= */}
       <About />
       {/*======= Services Section ========= */}
-      <section>
+      <section className="mb-[-300px]">
         <div className="container">
           <div className="xl:w-[470px] mx-auto ">
             <h2 className="heading text-center">Our medical services </h2>
@@ -172,6 +172,40 @@ const Home = () => {
           <ServiceList />
         </div>
       </section>
+      {/*======= Services Section End ========= */}
+      {/*======= Feature Section ========= */}
+      <section>
+        <div className="container">
+          <div className="flex items-center justify-between flex-col lg:flex-row">
+            {/*======= Feature Content ========= */}
+            <div className="xl:w-[640px] ">
+              <h2 className="heading ">
+                Get virtual treatment <br />
+                anytime.
+              </h2>
+              <ul className="pl-4">
+                <li className="text__para">
+                  1. Schedule the appoinment directly.
+                </li>
+                <li className="text__para">
+                  2. Search for your physician here, and contact thier office.
+                </li>
+                <li className="text__para">
+                  3. View our phycians who are accepting new patients, use the
+                  online Scheduling tool to select an Appoinment time.
+                </li>
+              </ul>
+              <Link to={"/"}>
+                <button className="btn hover:bg-blue-400">Learn More</button>
+              </Link>
+            </div>
+            <div className="relative z-10 xl:w-[770px] flex justify-end mt-[50px] lg:mt-0 ">
+              <img src={featureImg} className="w-3/4" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*======= Feature Section End ========= */}
     </>
   );
 };
