@@ -8,6 +8,7 @@ import icon03 from "../assets/images/icon03.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import About from "../components/About/About";
+import ServiceList from "../components/Services/ServiceList";
 
 const Home = () => {
   return (
@@ -159,6 +160,18 @@ const Home = () => {
       {/*======= About Section ========= */}
       <About />
       {/*======= Services Section ========= */}
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto ">
+            <h2 className="heading text-center">Our medical services </h2>
+            <div className="para__text text-center mt-4">
+              World-class care for everyone. Our healthy System offers
+              unmatched, expert health care.
+            </div>
+          </div>
+          <ServiceList />
+        </div>
+      </section>
     </>
   );
 };
