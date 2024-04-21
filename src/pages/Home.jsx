@@ -211,7 +211,7 @@ const Home = () => {
       </section>
       {/*======= Feature Section End ========= */}
       {/*======= Doctor's Section End ========= */}
-      <section>
+      <section className="mb-[-300px]">
         <div className="container">
           <div className="xl:w-[470px] mx-auto ">
             <h2 className="heading text-center">Our great doctors </h2>
@@ -246,7 +246,7 @@ const Home = () => {
       {/*======= FAQ Section End  ========= */}
 
       {/*======= FAQ Section End  ========= */}
-      <div className="container">
+      <div className="container mb-[200px]">
         <div className="xl:w-[470px] mx-auto ">
           <h2 className="heading text-center">What our patient say </h2>
           <div className="para__text text-center mt-4">
