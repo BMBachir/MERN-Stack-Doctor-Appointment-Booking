@@ -31,6 +31,10 @@
   .hero__section {
     @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-center bg-cover w-full h-full;
   }
+
+  .doctorSearch__section {
+    @apply bg-[url('./assets/images/search-background.png')] bg-no-repeat bg-center bg-cover w-full h-full;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
