@@ -48,7 +48,7 @@ const DoctorCard = ({ doctor, index }) => {
           </p>
         </div>
         <Link
-          to={"/doctors/1"}
+          to={"/doctor-details"}
           className="w-[44px] h-[44px]  rounded-full border border-solid hover:text-white border-[#181A1E]  mx-auto flex  items-center justify-center group hover:bg-primaryColor hover:border-none "
         >
           <BsArrowRight />
