@@ -1,5 +1,7 @@
 import React from "react";
 import doctorImg from "../../assets/images/doctor-img03.png";
+import starImg from "../../assets/images/Star.png";
+
 const DoctorDetails = () => {
   return (
     <section>
@@ -10,12 +12,34 @@ const DoctorDetails = () => {
               <figure className="max-w-[200px] max-h-[200px] ">
                 <img src={doctorImg} className="w-full" />
               </figure>
-              <span className="bg-[#CCF0F3] text-irisBlueColor py-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 rounded font-semibold ">
-                Pediatrician
-              </span>
-              <h3 className="text-[22px] leading-9 mt-3 text-headingColor font-bold ">
-                Dr. Farid Uddin
-              </h3>
+              <div className="">
+                <span className="bg-[#CCF0F3] text-irisBlueColor py-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 rounded font-semibold ">
+                  Pediatrician
+                </span>
+                <h3 className="text-[22px] leading-9 mt-3 text-headingColor font-bold ">
+                  Dr. Farid Boudaoui
+                </h3>
+                <div className="flex items-center gap-[6px] ">
+                  <span className=" flex items-center gap-[6px] text-[14px] leading-5 lg:text-[16px] lg:leading-7 font-semibold text-headingColor  ">
+                    <img src={starImg} alt="" /> 4.9
+                  </span>
+                  <span className="text-[14px] leading-6 lg:text-[16px] lg:leading-7 font-[400]  text-textColor ">
+                    (272)
+                  </span>
+                </div>
+                <p className="text__para text-[14px] leading-6 md:text-[15px] lg:max-w-[390px]   ">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+                  vero.
+                </p>
+              </div>
+            </div>
+            <div className="mt-[50px] border-b border-solid border-[#0066ff34] ">
+              <button className="py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold ">
+                About
+              </button>
+              <button className="py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold ">
+                FeedBack
+              </button>
             </div>
           </div>
         </div>
