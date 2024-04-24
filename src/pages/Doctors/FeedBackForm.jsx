@@ -57,7 +57,11 @@ const FeedBackForm = () => {
           onChange={(e) => setReviewText(e.target.value)}
         ></textarea>
       </div>
-      <button typer="submit" onClick={handleSubmitReview} className="btn">
+      <button
+        typer="submit"
+        onClick={handleSubmitReview}
+        className="btn hover:bg-hoverColor"
+      >
         Submit Feedback
       </button>
     </form>

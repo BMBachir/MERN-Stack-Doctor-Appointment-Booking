@@ -41,7 +41,10 @@ const FeedBack = () => {
 
       {!showFeedbackForm && (
         <div className="text-center">
-          <button className="btn" onClick={() => setShowFeedbackForm(true)}>
+          <button
+            className="btn hover:bg-hoverColor"
+            onClick={() => setShowFeedbackForm(true)}
+          >
             Give Feedback
           </button>
         </div>

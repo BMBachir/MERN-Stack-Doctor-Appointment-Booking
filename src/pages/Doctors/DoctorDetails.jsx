@@ -4,6 +4,7 @@ import starImg from "../../assets/images/Star.png";
 import { useState } from "react";
 import DoctorAbout from "./DoctorAbout";
 import FeedBack from "./FeedBack";
+import SidePanel from "./SidePanel";
 
 const DoctorDetails = () => {
   const [tab, setTab] = useState("About");
@@ -52,7 +53,7 @@ const DoctorDetails = () => {
                 className={` ${
                   tab === "FeedBack" &&
                   "border-b border-solid border-primaryColor "
-                } py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold `}
+                } py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold  `}
               >
                 Feedback
               </button>
@@ -62,6 +63,9 @@ const DoctorDetails = () => {
               {tab === "About" && <DoctorAbout />}
               {tab === "FeedBack" && <FeedBack />}
             </div>
+          </div>
+          <div>
+            <SidePanel />
           </div>
         </div>
       </div>
