@@ -19,9 +19,9 @@ const Signup = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
   return (
-    <section className="px-5 lg:px-0 mt-[-50px] mb-[-50px] ">
+    <section className="px-5 lg:px-0 mt-[-150px] mb-[-80px] ">
       <div className="max-w-[1440px] mx-auto ">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px] ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px]  ">
           <div className="hidden lg:block mt-[-180px] ">
             <figure>
               <img src={registerImfg} alt="" className="w-full " />
@@ -30,7 +30,7 @@ const Signup = () => {
 
           {/*========== sign up form =============*/}
           <div className="rounded-l-lg lg:pl-16 py-10">
-            <h3 className="text-headingColor text-[32px] leading-9 font-bold mb-10 ">
+            <h3 className="text-headingColor text-[32px] leading-9 font-bold mb-10  ">
               Create an <span className="text-primaryColor"> account </span>
             </h3>
             <form action="" className="py-4 md:py-0 ">
