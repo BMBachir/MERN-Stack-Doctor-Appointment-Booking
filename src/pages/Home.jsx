@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       {/*======= Hero section ========= */}
-      <section className="hero__section pt-[60px] 2xl:h-[800px] mb-[-180px] ">
+      <section className="hero__section pt-[60px] 2xl:h-[800px] ">
         <div className="container  ">
           <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between  ">
             {/*======= Hero content ========= */}
@@ -83,7 +83,7 @@ const Home = () => {
         </div>
       </section>
       {/*======= Hero section end ========= */}
-      <section className="mb-[-300px]">
+      <section>
         <div className="container">
           <div className="lg:w-[470px] mx-auto ">
             <h2 className="heading text-center">
@@ -164,7 +164,7 @@ const Home = () => {
       {/*======= About Section ========= */}
       <About />
       {/*======= Services Section ========= */}
-      <section className="mb-[-300px]">
+      <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto ">
             <h2 className="heading text-center">Our medical services </h2>
@@ -178,7 +178,7 @@ const Home = () => {
       </section>
       {/*======= Services Section End ========= */}
       {/*======= Feature Section ========= */}
-      <section className="mb-[-300px]">
+      <section>
         <div className="container">
           <div className="flex items-center justify-between flex-col lg:flex-row">
             {/*======= Feature Content ========= */}
@@ -211,7 +211,7 @@ const Home = () => {
       </section>
       {/*======= Feature Section End ========= */}
       {/*======= Doctor's Section End ========= */}
-      <section className="mb-[-300px]">
+      <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto ">
             <h2 className="heading text-center">Our great doctors </h2>
@@ -245,8 +245,8 @@ const Home = () => {
 
       {/*======= FAQ Section End  ========= */}
 
-      {/*======= FAQ Section End  ========= */}
-      <div className="container mb-[200px]">
+      {/*======= Testimonial Section   ========= */}
+      <div className="container mb-36">
         <div className="xl:w-[470px] mx-auto ">
           <h2 className="heading text-center">What our patient say </h2>
           <div className="para__text text-center mt-4">
@@ -256,7 +256,7 @@ const Home = () => {
         </div>
         <Testimonial />
       </div>
-      {/*======= FAQ Section End  ========= */}
+      {/*======= Testimonial Section End  ========= */}
     </>
   );
 };
